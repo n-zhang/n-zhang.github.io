@@ -1,1 +1,694 @@
-hello world
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <html>
+    <head>
+      <title>Ning Zhang's homepage</title>
+      <style>
+        @media screen and (max-device-width: 480px) {
+          body {
+            -webkit-text-size-adjust: none;
+          }
+        }
+        p {
+          font-size: 16px;
+        }
+        h1 {
+          padding: 0;
+          margin: 0;
+          font-size: 34px;
+        }
+        h2 {
+          font-size: 20px;
+          margin: 0;
+          padding: 0;
+        }
+        body {
+          padding: 0;
+          font-family: Arial;
+          font-size: 16px;
+          background-color: #ffffff;
+        }
+        .title {
+          width: 650px;
+          margin: 20px auto;
+        }
+        .container {
+          width: 700px;
+          margin: 20px auto;
+          border-radius: 10px;
+          background-color: #fff;
+          padding: 20px;
+          clear: both;
+        }
+        #bio {
+          padding-top: 40px;
+          margin-left: 20px;
+        }
+        #me {
+          border: 0 solid black;
+          border-radius: 10px;
+          margin-right: 10px;
+        }
+        #sidebar {
+          margin-left: 25px;
+          border: 0 solid black;
+          float: right;
+          margin-bottom: 0;
+        }
+        a {
+          text-decoration: none;
+        }
+        a:hover {
+          text-decoration: underline;
+        }
+        a,
+        a:visited {
+          color: #0050e7;
+        }
+        .publogo {
+          width: 100 px;
+          margin-right: 20px;
+          float: left;
+          border: 0;
+          min-height: 100px;
+        }
+        .publication {
+          clear: left;
+          padding-bottom: 0px;
+        }
+        .publication p {
+          height: 100px;
+          padding-top: 5px;
+        }
+        .publication strong a {
+          color: #0000a0;
+        }
+        .publication .links {
+          position: relative;
+          top: 15px;
+        }
+        .publication .links a {
+          margin-right: 20px;
+        }
+        .codelogo {
+          margin-right: 10px;
+          float: left;
+          border: 0;
+        }
+        .code {
+          clear: left;
+          padding-bottom: 10px;
+          vertical-align: middle;
+        }
+        .code .download a {
+          display: block;
+          margin: 0 15px;
+          float: left;
+        }
+        .code strong a {
+          color: #000;
+        }
+        .external a {
+          margin: 0 10px;
+        }
+        .external a.first {
+          margin: 0 10px 0 0;
+        }
+      </style>
+      <script async="" src="//www.google-analytics.com/analytics.js"></script>
+    </head>
+
+    <body>
+      <div class="title">
+        <div id="sidebar">
+          <img
+            src="me2.jpg"
+            vspace="10 px"
+            width="200 px"
+            id="me"
+            itemprop="photo"
+          />
+        </div>
+        <div id="bio">
+          <h1>
+            <span itemprop="name">Ning Zhang</span>
+          </h1>
+          <p style="line-height:23px;">
+            <br />
+            Email: me@ningzhang.io <br />
+          </p>
+          <p class="external">
+            <a
+              href="http://scholar.google.com/citations?user=DplAah0AAAAJ&hl=en"
+              >Google Scholar</a
+            >
+            <a href="https://www.linkedin.com/in/ning-zhang-16580125/"
+              >Linkedin</a
+            >
+          </p>
+        </div>
+      </div>
+
+      <div class="container">
+        <h2>About Me</h2>
+        <p>
+          I am a researcher, entrepreneur and practitioner working on artificial
+          intelligence, deep learning and computer vision. I am currently
+          working on a stealth project.
+          <br />
+          <br />
+          Prior to this, I was head of computer vision at an early stage
+          startup, working on next-generation privacy preserving indoor patient
+          monitoring system for social good. My team built first prototype of
+          activity recognition model running real-time on edge devices.
+          <br />
+          <br />
+          Before that, I led the computer vision research group at Snapchat. My
+          team worked on projects including object recognition, object
+          detection, efficient deep learning inference, semantic segmentation,
+          pose estimation and tracking, text recognition, Generative Adversarial
+          networks. I had a great time applying deep learning to enhance
+          products that brought joy to hundreds of millions of users.
+          <br />
+          <br />
+          I earned my Ph.D. in Computer Science at
+          <a href="http://eecs.berkeley.edu/">UC Berkeley</a> in 2015, advised
+          by Professor
+          <a href="http://eecs.berkeley.edu/~trevor/">Trevor Darrell</a>. My
+          Ph.D. thesis is about fine-grained image categorization using deep
+          learning.
+          <br />
+          <br />
+          Before coming to US, I graduated from Tsinghua University with a B.S.
+          in Computer Science in June 2010, working with Professor
+          <a href="http://keg.cs.tsinghua.edu.cn/jietang/">Jie Tang</a>. I have
+          spent two summers interning at Facebook AI Research (FAIR), working
+          with Dr. Lubomir Bourdev. <br /><br />
+        </p>
+      </div>
+
+      <div class="container">
+        <h2>Selected Publications</h2>
+        <div class="publication">
+          <img src="figs/aaai20_logo" class="publogo" width="200 px" />
+          <p>
+            <strong>
+              <a href="https://arxiv.org/pdf/1904.09320.pdf"
+                >Context-Aware Zero-Shot Recognition</a
+              >
+            </strong>
+            <br />
+            <br />
+            Ruotian Luo, <b>Ning Zhang</b>, Bohyung Han, Linjie Yang.
+            <br />
+            <em>
+              Thirty-Fourth AAAI Conference on Artifial Intelligence (AAAI),
+              2020</em
+            >
+            <br />
+            <span class="links">
+              <a href="https://github.com/ruotianluo/Context-aware-ZSR">Code</a>
+            </span>
+          </p>
+        </div>
+        <br />
+        <br />
+        <div class="publication">
+          <img src="figs/iccv19_logo_2" class="publogo" width="200 px" />
+          <p>
+            <strong>
+              <a href="https://arxiv.org/abs/1903.11633"
+                >Laplace Landmark Localization</a
+              >
+            </strong>
+            <br />
+            <br />
+            Joseph P. Robinson, Yuncheng Li, <b>Ning Zhang</b>, Yun Fu, Sergey
+            Tulyakov.
+            <br />
+            <em>
+              The IEEE International Conference on Computer Vision (ICCV),
+              2019</em
+            >
+          </p>
+        </div>
+        <br />
+        <br />
+        <div class="publication">
+          <img src="figs/iccv19_logo" class="publogo" width="200 px" />
+          <p>
+            <strong>
+              <a href="https://arxiv.org/abs/1908.09216"
+                >Dynamic Kernel Distillation for Efficient Pose Estimation in
+                Videos</a
+              >
+            </strong>
+            <br />
+            <br />
+            Xuecheng Nie, Yuncheng Li, Linjie Yang, <b>Ning Zhang</b>, Jiashi
+            Feng.
+            <br />
+            <em>
+              The IEEE International Conference on Computer Vision (ICCV),
+              2019</em
+            >
+          </p>
+        </div>
+        <br />
+        <br />
+        <div class="publication">
+          <img src="figs/cvpr19_logo" class="publogo" width="200 px" />
+          <p>
+            <strong>
+              <a
+                href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Huh_Feedback_Adversarial_Learning_Spatial_Feedback_for_Improving_Generative_Adversarial_Networks_CVPR_2019_paper.pdf"
+                >Feedback Adversarial Learning: Spatial Feedback for Improving
+                Generative Adversarial Networks</a
+              >
+            </strong>
+            <br />
+            <br />
+            Minyoung Huh, Shao-hua Sun, <b>Ning Zhang</b>.
+            <br />
+            <em>Computer Vision and Pattern Recognition (CVPR), 2019</em>
+          </p>
+        </div>
+        <br />
+        <br />
+        <div class="publication">
+          <img src="figs/eccv18_logo" class="publogo" width="200 px" />
+          <p>
+            <strong>
+              <a href="papers/Multi-view_to_Novel_ECCV_2018_paper.pdf"
+                >Multi-view to Novel view: Synthesizing novel views from
+                Self-Learned Confidence</a
+              >
+            </strong>
+            <br />
+            <br />
+            Shao-Hua Sun, Minyoung Huh, Yuan-Hong Liao, <b>Ning Zhang</b>,
+            Joseph J. Lim.
+            <br />
+            <em>European Conference on Computer Vision (ECCV), 2018</em>
+            <br />
+            <span class="links">
+              <a href="https://shaohua0116.github.io/Multiview2Novelview/"
+                >Project page</a
+              >
+              <a href="https://github.com/shaohua0116/Multiview2Novelview"
+                >Code</a
+              >
+            </span>
+          </p>
+        </div>
+        <br />
+        <br />
+        <div class="publication">
+          <img src="figs/acl18_logo" class="publogo" width="200 px" />
+          <p>
+            <strong>
+              <a href="papers/visual_attention_acl18.pdf"
+                >Visual Attention Model for Name Tagging in Multimodal Social
+                Media</a
+              >
+            </strong>
+            <br />
+            <br />
+            Di Lu, Leonardo Neves, Vitor Carvalho, <b>Ning Zhang</b>, Heng Ji.
+            <br />
+            <em
+              >56th Annual Meeting of the Association for Computational
+              Linguistics (ACL), 2018</em
+            >
+          </p>
+        </div>
+        <br />
+        <br />
+        <div class="publication">
+          <img src="figs/bmvc17_logo" class="publogo" width="200 px" />
+          <p>
+            <strong>
+              <a href="papers/17-BMVC-AutoScaler.pdf"
+                >AutoScaler: Scale-Attention Networks for Visual
+                Correspondence</a
+              >
+            </strong>
+            <br />
+            <br />
+            Shenlong Wang, Linjie Luo, <b>Ning Zhang</b>, Li-Jia Li.
+            <br />
+            <em
+              >British Machine Vision Conference (BMVC), 2017<font
+                color="#e86e14"
+                >(Oral)</font
+              ></em
+            >
+          </p>
+        </div>
+
+        <div class="publication">
+          <img src="figs/cvpr17_logo" class="publogo" width="200 px" />
+          <p>
+            <strong>
+              <a
+                href="http://openaccess.thecvf.com/content_cvpr_2017/papers/Ren_Deep_Reinforcement_Learning-Based_CVPR_2017_paper.pdf"
+                >Deep Reinforcement Learning-Based Image Captioning With
+                Embedding Reward</a
+              >
+            </strong>
+            <br />
+            <br />
+            Zhou Ren, Xiaoyu Wang, <b>Ning Zhang</b>, Xutao Lv, Li-Jia Li.
+            <br />
+            <em
+              >Computer Vision and Pattern Recognition (CVPR), 2017<font
+                color="#e86e14"
+                >(Oral)</font
+              ></em
+            >
+          </p>
+        </div>
+
+        <div class="publication">
+          <img src="figs/iclr_logo" class="publogo" width="200 px" />
+          <p>
+            <strong>
+              <a href="http://arxiv.org/abs/1511.07063"
+                >Fine-grained pose prediction, normalization, and recognition</a
+              >
+            </strong>
+            <br />
+            <br />
+            <b>Ning Zhang</b>, Evan Shelhamer, Yang Gao, Trevor Darrell.
+            <br />
+            <em
+              >International Conference on Learning Representations (ICLR)
+              workshop, 2016</em
+            >
+          </p>
+        </div>
+
+        <div class="publication">
+          <img
+            src="figs/compact_bilinear_logo"
+            class="publogo"
+            width="200 px"
+          />
+          <p>
+            <strong>
+              <a href="http://arxiv.org/abs/1511.06062"
+                >Compact Bilinear Pooling</a
+              >
+            </strong>
+            <br />
+            <br />
+            Yang Gao, Oscar Beijbom, <b>Ning Zhang</b>, Trevor Darrell.
+            <br />
+            <em>Computer Vision and Pattern Recognition (CVPR), 2016</em>
+          </p>
+        </div>
+        <div class="publication">
+          <img src="figs/dataset_example" class="publogo" width="200 px" />
+          <p>
+            <strong>
+              <a href="http://arxiv.org/abs/1501.05703"
+                >Beyond Frontal Faces: Improving Person Recognition Using
+                Multiple Cues</a
+              >
+            </strong>
+            <br />
+            <br />
+            <b>Ning Zhang</b>, Manohar Paluri, Yaniv Tagiman, Rob Fergus,
+            Lubomir Bourdev.
+            <br />
+            <em>Computer Vision and Pattern Recognition (CVPR), 2015</em>
+            <br />
+            <span class="links">
+              <a href="papers/piper_camera_ready.pdf">PDF</a>
+              <a href="http://arxiv.org/abs/1501.05703">arXiv</a>
+              <a href="piper.html">Project page</a>
+            </span>
+          </p>
+        </div>
+        <br />
+        <br />
+        <div class="publication">
+          <img src="figs/nips14_logo.png" class="publogo" width="200 px" />
+          <p>
+            <strong>
+              <a href="http://arxiv.org/abs/1411.1091"
+                >Do Convnets Learn Correspondence?</a
+              >
+            </strong>
+            <br />
+            <br />
+            Jonathan Long, <b>Ning Zhang</b>, Trevor Darrell.
+            <br />
+            <em
+              >Neural Information Processing Systems Foundation (NIPS), 2014</em
+            >
+            <br />
+            <span class="links">
+              <a href="http://arxiv.org/abs/1411.1091">arXiv</a>
+            </span>
+          </p>
+        </div>
+        <br />
+        <br />
+        <div class="publication">
+          <img src="figs/eccv14_logo.png" class="publogo" width="200 px" />
+          <p>
+            <strong>
+              <a href="papers/eccv14_part.pdf"
+                >Part-based R-CNNs for Fine-grained Category Detection.</a
+              >
+            </strong>
+            <br />
+            <br />
+            <b>Ning Zhang</b>, Jeff Donahue, Ross Girshick, Trevor Darrell.
+            <br />
+            <em
+              >European Conference on Computer Vision (ECCV), 2014
+              <font color="#e86e14">(Oral)</font>
+            </em>
+            <br />
+            <span class="links">
+              <a href="papers/eccv14_part.pdf">PDF</a>
+              <a href="papers/eccv14_slides.pdf">Slides</a>
+              <a href="papers/eccv14_poster.pdf">Poster</a>
+              <a href="https://github.com/n-zhang/part-based-RCNN">Code</a>
+            </span>
+          </p>
+        </div>
+        <br />
+        <br />
+        <div class="publication">
+          <img src="figs/panda_logo.png" class="publogo" width="200 px" />
+          <p>
+            <strong>
+              <a href="papers/cvpr14_panda.pdf"
+                >PANDA: Pose Aligned Networks for Deep Attribute Modeling.</a
+              >
+            </strong>
+            <br />
+            <br />
+            <b>Ning Zhang</b>, Manohar Paluri, Marc'Aurelio Ranzato, Trevor
+            Darrell, Lubomir Bourdev.
+            <br />
+            <em
+              >Computer Vision and Pattern Recognition (CVPR), 2014
+              <font color="#e86e14">(Oral)</font>
+            </em>
+            <br />
+            <span class="links">
+              <a href="papers/cvpr14_panda.pdf">PDF</a>
+              <a href="https://github.com/facebook/pose-aligned-deep-networks"
+                >Code</a
+              >
+              <a href="papers/cvpr14_panda_slides.pdf">Slides</a>
+              <a href="http://arxiv.org/pdf/1311.5591v2.pdf">Arxiv</a>
+            </span>
+          </p>
+        </div>
+        <br />
+        <br />
+        <br />
+        <div class="publication">
+          <img src="figs/openvoc_logo.png" class="publogo" width="200 px" />
+          <p>
+            <strong>
+              <a href="papers/rss14_openvoc.pdf"
+                >Open-vocabulary Object Retrieval</a
+              >
+            </strong>
+            <br />
+            <br />
+            Sergio Guadarrama, Erik Rodner, Kate Saenko, <b>Ning Zhang</b>, Ryan
+            Farrell, Jeff Donahue, Trevor Darrell.
+            <br />
+            <em>Robotics Science and Systems (RSS), 2014</em>
+            <br />
+            <span class="links">
+              <a href="papers/rss14_openvoc.pdf">PDF</a>
+            </span>
+          </p>
+        </div>
+        <br />
+        <br />
+        <br />
+        <div class="publication">
+          <img src="figs/decaf_logo.png" width="200 px" class="publogo" />
+          <p>
+            <strong>
+              <a href="papers/icml14_decaf.pdf"
+                >DeCAF: A Deep Convolutional Activation Feature for Generic
+                Visual Recognition</a
+              >
+            </strong>
+            <br />
+            <br />
+            Jeff Donahue, Yangqing Jia, Oriol Vinyals, Judy Hoffman,
+            <b>Ning Zhang</b>, Eric Tzeng, Trevor Darrell.
+            <br />
+            <em>International Conference on Machine Learning (ICML), 2014</em>
+            <br />
+            <span class="links">
+              <a href="papers/icml14_decaf.pdf">PDF</a>
+              <a href="http://arxiv.org/abs/1310.1531">Arxiv</a>
+            </span>
+          </p>
+        </div>
+        <br />
+        <br />
+        <br />
+        <div class="publication">
+          <img src="figs/dpd_logo.png" width="200 px" class="publogo" />
+          <p>
+            <strong>
+              <a href="papers/iccv13_dpd.pdf"
+                >Deformable Part Descriptors for Fine-grained Recognition and
+                Attribute Prediction</a
+              >
+            </strong>
+            <br />
+            <br />
+            <b>Ning Zhang</b>, Ryan Farrell, Forrest Iandola, Trevor Darrell.
+            <br />
+            <em>International Conference on Computer Vision (ICCV), 2013</em>
+            <br />
+            <span class="links">
+              <a href="papers/iccv13_dpd.pdf">PDF</a>
+              <a href="codes/dpd_code.tar">Matlab Code</a>
+              <a href="papers/dpd_poster_Ning.pdf">Poster</a>
+            </span>
+          </p>
+        </div>
+        <br />
+        <br />
+        <div class="publication">
+          <img src="figs/ppk_logo.png" width="200 px" class="publogo" />
+          <p>
+            <strong>
+              <a href="papers/cvpr12_ppk.pdf"
+                >Pose Pooling Kernels for Sub-category Recognition</a
+              >
+            </strong>
+            <br />
+            <br />
+            <b>Ning Zhang</b>, Ryan Farrell, Trevor Darrell.
+            <br />
+            <em>Computer Vision and Pattern Recognition (CVPR), 2012</em>
+            <br />
+            <span class="links">
+              <a href="papers/cvpr12_ppk.pdf">PDF</a>
+            </span>
+          </p>
+        </div>
+        <br />
+        <br />
+        <div class="publication">
+          <img src="figs/birdlet_logo.png" width="200 px" class="publogo" />
+          <p>
+            <strong>
+              <a href="papers/iccv11_birdlet.pdf"
+                >Birdlets: Subordinate Categorization Using Volumetric
+                Primitives and Pose-Normalized Appearance.
+              </a>
+            </strong>
+            <br />
+            <br />
+            Ryan Farrell, Om Oza, <b>Ning Zhang</b>, Vlad I. Morariu, Trevor
+            Darrell, Larry S. Davis.
+            <br />
+            <em
+              >International Conference on Computer Vision (ICCV), 2011
+              <font color="#e86e14">(Oral)</font>
+            </em>
+            <br />
+            <span class="links">
+              <a href="papers/iccv11_birdlet.pdf">PDF</a>
+            </span>
+          </p>
+          <br />
+          <br />
+        </div>
+        <br />
+        <!--
+        <div class="publication">
+        	<img src="figs/wi_logo" class="publogo">
+        	<p> 
+        		<strong>
+        			<a href="papers/wi_mobile.pdf">MQuery: Fast Grpah Query via Semantic Indexing for Mobile Context</a>
+        		</strong>
+        		<br>
+        		Yuan Zhang, <b>Ning Zhang</b>, Jie Tang, Jinghai Rao, Wenbin Tang.
+        		<br>
+        		<em>Proceedings of 2010 IEEE/WIC/ACM International Conferences on Web Intelligence, WI'2010. </em>
+        		<br>
+        		<span class="links">
+        			<a href="papers/wi_mobile.pdf">PDF</a>
+        		</span>
+        	</p>
+        </div>
+        <br>
+        <div class="publication">
+        	<img src="figs/tag_recommendation" class="publogo">
+        	<p> 
+        		<strong>
+        			<a href="papers/tag.pdf">A Tag Recommendation System for Folksonomy.</a>
+        		</strong>
+        		<br>
+        		<b>Ning Zhang</b>, Yuan Zhang. 
+        		<br>
+        		<em>The 2nd Workshop on Social Web Search and Mining(SWSM) 2009</em>
+        		<br>
+        		<span class="links">
+        			<a href="papers/tag.pdf">PDF</a>
+        		</span>
+        	</p>
+        </div>
+    -->
+      </div>
+
+      <div class="container">
+        <h2>Teaching</h2>
+        <div>
+          <p>
+            Head of Graduate Student Instructor, UC Berkeley (Spring 2014)
+            <br />
+            CS 189: Introduction to Machine Learning
+          </p>
+        </div>
+        <div>
+          <p>
+            Graduate Student Instructor, UC Berkeley (Fall 2013)
+            <br />
+            CS 188: Introduction to Aritificial Intelligence
+          </p>
+        </div>
+      </div>
+    </body>
+  </html>
+</html>
